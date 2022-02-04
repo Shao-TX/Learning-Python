@@ -15,7 +15,7 @@ F-value between label/feature for regression tasks.
 * 變異數(var) : <img src="https://latex.codecogs.com/svg.image?\inline&space;std^2" title="\inline std^2" />
 
 #### 公式 : 
-* <img src="https://latex.codecogs.com/svg.image?r&space;=&space;\frac&space;{\sum_{i=1}^n(x_i&space;-&space;\mu_x)(y_i&space;-&space;\mu_y)}{\sqrt{\sum_{i=1}^n(x_i&space;-&space;\mu_x)^2}\sqrt{\sum_{i=1}^n(y_i&space;-&space;\mu_y)^2}}" title="r = \frac {\sum_{i=1}^n(x_i - \mu_x)(y_i - \mu_y)}{\sqrt{\sum_{i=1}^n(x_i - \mu_x)^2}\sqrt{\sum_{i=1}^n(y_i - \mu_y)^2}}" />
+<img src="https://latex.codecogs.com/svg.image?r&space;=&space;\frac&space;{\sum_{i=1}^n(x_i&space;-&space;\mu_x)(y_i&space;-&space;\mu_y)}{\sqrt{\sum_{i=1}^n(x_i&space;-&space;\mu_x)^2}\sqrt{\sum_{i=1}^n(y_i&space;-&space;\mu_y)^2}}" title="r = \frac {\sum_{i=1}^n(x_i - \mu_x)(y_i - \mu_y)}{\sqrt{\sum_{i=1}^n(x_i - \mu_x)^2}\sqrt{\sum_{i=1}^n(y_i - \mu_y)^2}}" />
 
 #### 原理 : 
 若x與y分佈一樣，r(相關係數)就會越接近 +-1 ，此時代表兩者完全相關，r>0 為正相關、r<0 為負相關，而除以標準差是為了讓兩者的值落在 +-1 之間，
