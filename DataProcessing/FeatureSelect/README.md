@@ -30,9 +30,9 @@ F-value between label/feature for regression tasks.
 
 * <img src="http://chart.googleapis.com/chart?cht=tx&chl= \mu_x" style="border:none;"> = (-2 + -1 + 1 + 2) / 4 = 0
 * <img src="http://chart.googleapis.com/chart?cht=tx&chl= \mu_y" style="border:none;"> = (-20 + -10 + 10 + 20) / 4 = 0
-* <img src="http://chart.googleapis.com/chart?cht=tx&chl= \sum_{i=1}^n(x_i - \mu_x)(y_i - \mu_y)" style="border:none;">$$ = (-2 x -20) + (-1 x -10) + (1 x 10) + (2 x 20) = 100
+* <img src="http://chart.googleapis.com/chart?cht=tx&chl= \sum_{i=1}^n(x_i - \mu_x)(y_i - \mu_y)" style="border:none;"> = (-2 x -20) + (-1 x -10) + (1 x 10) + (2 x 20) = 100
 * <img src="http://chart.googleapis.com/chart?cht=tx&chl= \sqrt{\sum_{i=1}^n(x_i - \mu_x)^2}" style="border:none;"> = <img src="http://chart.googleapis.com/chart?cht=tx&chl= \sqrt{(-2 - 0)^2 + (-1 - 0)^2 + (1 - 0)^2 + (2 - 0)^2}" style="border:none;"> = <img src="http://chart.googleapis.com/chart?cht=tx&chl= \sqrt{10}" style="border:none;">
-* <img src="http://chart.googleapis.com/chart?cht=tx&chl= \sqrt{\sum_{i=1}^n(y_i - \mu_y)^2}" style="border:none;"> = <img src="http://chart.googleapis.com/chart?cht=tx&chl= \sqrt{(-20 - 0)^2 + (-10 - 0)^2 + (10 - 0)^2 + (20 - 0)^2}" style="border:none;"> = <img src="http://chart.googleapis.com/chart?cht=tx&chl= \sqrt{1000}"
+* <img src="http://chart.googleapis.com/chart?cht=tx&chl= \sqrt{\sum_{i=1}^n(y_i - \mu_y)^2}" style="border:none;"> = <img src="http://chart.googleapis.com/chart?cht=tx&chl= \sqrt{(-20 - 0)^2 + (-10 - 0)^2 + (10 - 0)^2 + (20 - 0)^2}" style="border:none;"> = <img src="http://chart.googleapis.com/chart?cht=tx&chl= \sqrt{1000}" style="border:none;">
 
 Result : r = <img src="http://chart.googleapis.com/chart?cht=tx&chl= \frac{100}{\sqrt{10}\sqrt{1000}}" style="border:none;"> = 1
 
