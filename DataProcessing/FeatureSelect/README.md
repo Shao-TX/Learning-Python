@@ -10,7 +10,7 @@ F-value between label/feature for regression tasks.
 ### Correlation Coefficient : 
 
 #### 參數 : 
-* 共變異數(cov) : $\frac{1}{n-1}{\sum_{i=1}^n(x_i - μ_x)(y_i - μ_y)}$
+* 共變異數(cov) : <img src="http://chart.googleapis.com/chart?cht=tx&chl= \frac{1}{n-1}{\sum_{i=1}^n(x_i - μ_x)(y_i - μ_y)}" style="border:none;">
 * 標準差(std) : $\sqrt{\frac{1}{n-1}\sum_{i=1}^n(x_i - μ_x)^2}$
 * 變異數(var) : std$^2$
 
